@@ -1,0 +1,103 @@
+
+
+
+
+
+.navbar {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;/* Aligns Kabbo to the left and nav-links to the right */
+  align-items: center; /* Vertically centers content */
+  /*background-color: #e6f7ff;
+  border: 3px solid gray;
+  border-radius: 5px; */
+}
+
+.brand {
+  font-size: 22px;
+  list-style-type: none;
+}
+
+
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-links li {
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.nav-links li a {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Inherits color from parent */
+}
+
+.active{
+  color:red;
+}
+
+.none{
+  text-decoration: none;
+}
+
+
+
+.footer {
+ 
+  padding: 10px;
+  text-align: center;
+
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 80px;
+}
+
+
+.social-icons a {
+  
+  font-size: 30px;
+  
+}
+
+.social-icons a:hover {
+  color: #ccc;
+}
+
+
+
+.Port-Image:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.custom-card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.homeLine{
+
+  position: absolute;
+  top: 150px; /* Increase this value to lower the line */
+  left: 35%; /* Position the line in the middle of the container */
+  width: 2px; /* Adjust this value as needed for the thickness of the line */
+  height: calc(100% - 350px); /* Reduce the height of the line by 20px above and below the container */
+  background-color: black; /* Adjust color as needed */
+  z-index: 699;
+
+}
